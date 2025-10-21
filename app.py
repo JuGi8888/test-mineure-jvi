@@ -1,4 +1,7 @@
 import streamlit as st
+import pandas as pd
+st.header ("Mon application jvi")
+st.dataframe(data)
 
 nombres = [1, 2, 4, 7]
 carre = [1**2, 2**2, 4**2, 7**2]
