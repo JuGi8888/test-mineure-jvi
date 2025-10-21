@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-st.header("Mes soeurs adorées :")
+st.header("Mes soeurs adorées:")
 
 soeurs = ["Diane", "Louise"]
 age = [30, 24]
