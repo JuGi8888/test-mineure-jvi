@@ -4,7 +4,7 @@ import pandas as pd
 st.header("Mes soeurs adorées :")
 
 soeurs = ["Diane", "Louise"]
-age = [30 'ehehe', 24 'la petite soeur"]
+age = [30, 24]
 
 d = {"soeurs": soeurs, "age": age}
 data = pd.DataFrame(d)
