@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-st.header ("Mon application jvi")
+st.header ("LOVE JULIE")
 st.dataframe(data)
 
 nombres = [1, 2, 4, 7]
@@ -8,12 +8,6 @@ carre = [1**2, 2**2, 4**2, 7**2]
 
 d = {"nombres": nombres, "carre": carre}
 data = pd.DataFrame(d)
-
-st.dataframe(data)
-
-import pandas as pd
-st.header ("Mon application jvi")
-st.dataframe(data)
 
 st.header("LOVE JULIE")
 
