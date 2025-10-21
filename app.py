@@ -11,10 +11,7 @@ data = pd.DataFrame(d)
 
 st.dataframe(data)
 
-
-st.header("Widgets Interactifs (partie du cours")
-
-st.header("LOVE JULIE")
+st.header("AIMEZ-MOI JULIE")
 
 # Un slider
 love = st.slider("A quel point vous aimez Julie ?", 0, 100, 25)
