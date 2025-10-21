@@ -1,17 +1,6 @@
 import streamlit as st
 import pandas as pd
 
-st.header("Mes soeurs adorées:")
-
-soeurs = ["Diane", "Louise"]
-age = [30, 24]
-
-d = {"soeurs": soeurs, "age": age}
-data = pd.DataFrame(d)
-
-st.dataframe(data)
-
-## Petit message de love pour mes soeurs (ILY)
 
 st.header("Barromètre amour de Julie")
 
