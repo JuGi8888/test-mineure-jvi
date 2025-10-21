@@ -2,6 +2,19 @@ import streamlit as st
 
 import pandas as pd
 st.header ("Mon application jvi")
+
+nombres = [1, 2, 4, 7]
+carre = [1**2, 2**2, 4**2, 7**2]
+
+d = {"nombres": nombres, "carre": carre}
+data = pd.DataFrame(d)
+
+st.dataframe(data)
+
+
+
+import pandas as pd
+st.header ("Mon application jvi")
 st.dataframe(data)
 
 st.header("LOVE JULIE OU VAS LA-BAS")
@@ -19,3 +32,9 @@ st.write('Vous aimeriez voir Julie.... :', option)
 # Un bouton
 if st.button('Cliquez ici !'):
     st.write('Vous avez cliqué ! Bravo vive JULIE !!')
+
+st.header("Widgets Interactifs (partie du cours)")
+st.header("LOVE JULIE OU VAS LA-BAS")
+
+# Un slider
+love = st.slider("A quel point vous aimez Julie ?", 0, 100, 25)
