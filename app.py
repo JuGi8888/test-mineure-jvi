@@ -1,12 +1,12 @@
 import streamlit as st
 import pandas as pd
 
-st.header("mon application")
+st.header("Mes soeurs adorées :")
 
-nombres = [1, 2, 4, 7]
-carre = [1**2, 2**2, 4**2, 7**2]
+soeurs = ["Diane", "Louise"]
+age = [30 'ehehe', 24 'la petite soeur"]
 
-d = {"nombres": nombres, "carre": carre}
+d = {"soeurs": soeurs, "age": age}
 data = pd.DataFrame(d)
 
 st.dataframe(data)
