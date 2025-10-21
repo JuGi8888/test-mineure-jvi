@@ -11,7 +11,7 @@ data = pd.DataFrame(d)
 
 st.dataframe(data)
 
-print('Petit message de love pour mes soeurs (ILY)')
+## Petit message de love pour mes soeurs (ILY)
 
 st.header("Barromètre amour de Julie")
 
