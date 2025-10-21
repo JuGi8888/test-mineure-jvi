@@ -11,8 +11,6 @@ data = pd.DataFrame(d)
 
 st.dataframe(data)
 
-
-
 import pandas as pd
 st.header ("Mon application jvi")
 st.dataframe(data)
@@ -35,6 +33,3 @@ if st.button('Cliquez ici !'):
 
 st.header("Widgets Interactifs (partie du cours)")
 st.header("LOVE JULIE OU VAS LA-BAS")
-
-# Un slider
-love = st.slider("A quel point vous aimez Julie ?", 0, 100, 25)
