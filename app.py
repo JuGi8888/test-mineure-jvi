@@ -11,7 +11,9 @@ data = pd.DataFrame(d)
 
 st.dataframe(data)
 
-st.header("AIMEZ-MOI JULIE")
+print('Petit message de love pour mes soeurs (ILY)')
+
+st.header("Barromètre amour de Julie")
 
 # Un slider
 love = st.slider("A quel point vous aimez Julie ?", 0, 100, 25)
